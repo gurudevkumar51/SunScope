@@ -16,13 +16,11 @@
   <link href="../Content/ionicons.min.css" rel="stylesheet" />
   <!-- Theme style -->
   <link href="../Content/AdminLTE/css/AdminLTE.min.css" rel="stylesheet" />
-  <!-- iCheck -->
+  <!--iCheck-->
   <link href="../Content/AdminLTE/iCheck/square/blue.css" rel="stylesheet" />
 
   <!--Google map-->
-    <%--<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>--%> 
     <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBjkfs45j9M37h03pyfxVE9S7MULDWWsPk"></script>
-    <%--AIzaSyBjkfs45j9M37h03pyfxVE9S7MULDWWsPk--%>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>

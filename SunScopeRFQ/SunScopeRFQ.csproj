@@ -360,6 +360,20 @@
     <Folder Include="App_Data\" />
     <Folder Include="Installer\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SunScopeBLL\SunScopeBLL.csproj">
+      <Project>{7a4a8976-e954-4e6f-a14b-ab92aacc68fe}</Project>
+      <Name>SunScopeBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SunScopeBOL\SunScopeBOL.csproj">
+      <Project>{c1626ffc-9f0e-435d-91bc-b64e90a832eb}</Project>
+      <Name>SunScopeBOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SunScopeCommon\SunScopeCommon.csproj">
+      <Project>{116685d6-544e-42ea-8cca-4bc884a2b2be}</Project>
+      <Name>SunScopeCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
