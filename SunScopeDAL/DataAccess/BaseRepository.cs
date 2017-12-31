@@ -12,7 +12,7 @@ using Microsoft.Practices.EnterpriseLibrary.Data.Sql;
 
 namespace SunScopeDAL.DataAccess
 {
-   internal class BaseRepository
+   public abstract class BaseRepository
     {
         private static readonly Database db;
         private static readonly ConnectionStringSettings connectionSettings;
@@ -20,7 +20,7 @@ namespace SunScopeDAL.DataAccess
 
         static BaseRepository()
         {
-            connectionSettings = ConfigurationManager.ConnectionStrings["BirlaShaktiConnection"];
+            connectionSettings = ConfigurationManager.ConnectionStrings["RFQConnectionString"];
             ProviderName = connectionSettings.ProviderName;
             db = new SqlDatabase(connectionSettings.ConnectionString);
         }
