@@ -212,6 +212,7 @@
     <Content Include="Content\AdminLTE\iCheck\square\_all.css" />
     <Content Include="Content\SweetAlert\sweetalert2.min.css" />
     <Content Include="Content\SweetAlert\sweetalert2.min.js" />
+    <Content Include="CustomerContent\NewEnquiry.aspx" />
     <Content Include="CustomerContent\Register.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -322,6 +323,7 @@
     <Content Include="scripts\jquery-3.2.1.min.js" />
     <Content Include="scripts\jquery-3.2.1.slim.js" />
     <Content Include="scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="scripts\EnquiryCustom.js" />
     <Content Include="scripts\RegisterCustom.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -346,6 +348,13 @@
     </Compile>
     <Compile Include="Customer.Master.designer.cs">
       <DependentUpon>Customer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerContent\NewEnquiry.aspx.cs">
+      <DependentUpon>NewEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerContent\NewEnquiry.aspx.designer.cs">
+      <DependentUpon>NewEnquiry.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerContent\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

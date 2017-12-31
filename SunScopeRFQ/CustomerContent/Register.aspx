@@ -31,7 +31,7 @@
     <script src="../Content/SweetAlert/sweetalert2.min.js"></script>
 
   <!--Google map-->
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBjkfs45j9M37h03pyfxVE9S7MULDWWsPk"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBjkfs45j9M37h03pyfxVE9S7MULDWWsPk"></script>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -44,6 +44,7 @@
   <!--Custom Jquery code-->
     <script src="../scripts/RegisterCustom.js"></script>    
 </head>
+
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
