@@ -210,6 +210,8 @@
     <Content Include="Content\AdminLTE\iCheck\square\yellow.css" />
     <Content Include="Content\AdminLTE\iCheck\square\yellow.png" />
     <Content Include="Content\AdminLTE\iCheck\square\_all.css" />
+    <Content Include="Content\SweetAlert\sweetalert2.min.css" />
+    <Content Include="Content\SweetAlert\sweetalert2.min.js" />
     <Content Include="CustomerContent\Register.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -320,6 +322,7 @@
     <Content Include="scripts\jquery-3.2.1.min.js" />
     <Content Include="scripts\jquery-3.2.1.slim.js" />
     <Content Include="scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="scripts\RegisterCustom.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
