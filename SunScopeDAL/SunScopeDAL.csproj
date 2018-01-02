@@ -69,19 +69,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\AccountRepository.cs" />
     <Compile Include="DataAccess\BaseRepository.cs" />
     <Compile Include="DataAccess\CustomerRepository.cs" />
+    <Compile Include="DataAccess\LeadRepository.cs" />
     <Compile Include="Mapper\CustomerMapper.cs" />
+    <Compile Include="Mapper\EnquiryMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SunScopeBOL\SunScopeBOL.csproj">
       <Project>{c1626ffc-9f0e-435d-91bc-b64e90a832eb}</Project>
       <Name>SunScopeBOL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
