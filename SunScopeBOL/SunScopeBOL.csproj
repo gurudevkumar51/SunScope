@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\EmailTemplate.cs" />
+    <Compile Include="Entities\Enquiry.cs" />
+    <Compile Include="Entities\Login.cs" />
     <Compile Include="Entities\SmtpMail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
