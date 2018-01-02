@@ -44,10 +44,39 @@
             <input type="text" id="TBEnquiryLocation" runat="server" class="form-control" placeholder="Your Location" />
             <div id="map"></div>  
         </div>
+        <hr />
           <div class="row">
-              <div class="col-lg-6"></div>
-              <div class="col-lg-6"></div>
+              <div class="col-lg-2"></div>
+              <div class="col-lg-4">
+                  <label>Your Property type</label>
+                  <asp:RadioButtonList ID="RdbPropType" runat="server">
+                      <asp:ListItem Text="Residential" Value="Residential"></asp:ListItem>
+                      <asp:ListItem Text="Commercial" Value="Commercial"></asp:ListItem>
+                      <asp:ListItem Text="Non-Profit" Value="NProfit"></asp:ListItem>                      
+                  </asp:RadioButtonList>
+                  <label>Your Email</label>
+                  <input type="text" id="TbEmail" runat="server" class="form-control" placeholder="Your Email" />
+                  <label>Your Mobile</label>
+                  <input type="text" id="TbMobile" runat="server" class="form-control" placeholder="Your Mobile" />
+                  <label>Best time to call</label>
+                  <input type="text" id="TbCallTime" runat="server" class="form-control" placeholder="Best time to call" />
+              </div>
+              <div class="col-lg-4">
+                  <label>Your Average Monthly Electricity Bill</label>
+                  <input type="text" id="TbBill" runat="server" class="form-control" placeholder="Your Monthly Bill" />
+                  <label>Your Roof Type</label>
+                  <input type="text" id="TBRoofType" runat="server" class="form-control" placeholder="Your Roof Type" />
+                  <label>Roof size</label>
+                  <input type="text" id="TbRoofSize" runat="server" class="form-control" placeholder="Your Monthly Bill" />
+                  <label>Your Landline number</label>
+                  <input type="text" id="TbLandline" runat="server" class="form-control" placeholder="Your Landline" />
+              </div>
+              <div class="col-lg-2"></div>
           </div>
+        <hr />
+        <div class="row text-center">
+            <asp:Button ID="BtnEnqSubmit" runat="server" Text="Calculate" CssClass="btn btn-info" OnClick="BtnEnqSubmit_Click" />
+        </div>
     </form>
         </div>
 </body>
