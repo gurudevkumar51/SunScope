@@ -2,6 +2,14 @@
     getLocation();
 })
 
+function formSubmitStatus(data, type) {
+    swal(
+      '',
+      data,
+      type
+    )
+}
+
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -26,6 +34,7 @@ function showPosition(position) {
     }
 
     var map = new google.maps.Map(document.getElementById("map"), myOptions);
+    map.setTilt(45);
     var marker = new google.maps.Marker({
         position: latlon,
         map: map,
