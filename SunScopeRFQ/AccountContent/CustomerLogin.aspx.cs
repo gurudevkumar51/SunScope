@@ -17,6 +17,7 @@ namespace SunScopeRFQ.AccountContent
 
         }
 
+        //Login Button click
         protected void BtnSubmit_Click(object sender, EventArgs e)
         {
             SunScopeBOL.Entities.Login lgn = new SunScopeBOL.Entities.Login()

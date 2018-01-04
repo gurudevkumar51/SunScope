@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AccountContent\CustomerLogin.aspx" />
-    <Content Include="AdminContent\WebForm1.aspx" />
+    <Content Include="AdminContent\Login.aspx" />
     <Content Include="Content\AdminLTE\iCheck\all.css" />
     <Content Include="Content\AdminLTE\iCheck\flat\aero%402x.png" />
     <Content Include="Content\AdminLTE\iCheck\flat\aero.css" />
@@ -214,8 +214,10 @@
     <Content Include="Content\SweetAlert\sweetalert2.min.css" />
     <Content Include="Content\SweetAlert\sweetalert2.min.js" />
     <Content Include="CustomerContent\Home.aspx" />
+    <Content Include="CustomerContent\Login.aspx" />
     <Content Include="CustomerContent\NewEnquiry.aspx" />
     <Content Include="CustomerContent\Register.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -344,12 +346,12 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
-    <Compile Include="AdminContent\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="AdminContent\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminContent\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="AdminContent\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Customer.Master.cs">
       <DependentUpon>Customer.Master</DependentUpon>
@@ -364,6 +366,13 @@
     </Compile>
     <Compile Include="CustomerContent\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerContent\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerContent\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerContent\NewEnquiry.aspx.cs">
       <DependentUpon>NewEnquiry.aspx</DependentUpon>
@@ -381,6 +390,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

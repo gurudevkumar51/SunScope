@@ -10,19 +10,14 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <%--<link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">--%>
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
   <!-- Font Awesome -->
-  <%--<link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">--%>
     <link href="../Content/font-awesome.min.css" rel="stylesheet" />
   <!-- Ionicons -->
-  <%--<link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">--%>
     <link href="../Content/ionicons.min.css" rel="stylesheet" />
   <!-- Theme style -->
-  <%--<link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">--%>
     <link href="../Content/AdminLTE/css/AdminLTE.min.css" rel="stylesheet" />
   <!-- iCheck -->
-  <%--<link rel="stylesheet" href="../../plugins/iCheck/square/blue.css">--%>
     <link href="../Content/AdminLTE/iCheck/square/blue.css" rel="stylesheet" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,16 +28,13 @@
   <![endif]-->
 
   <!-- Google Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
 
     <!-- jQuery 3 -->
-<%--<script src="../../bower_components/jquery/dist/jquery.min.js"></script>--%>
     <script src="../scripts/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<%--<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>--%>
     <script src="../scripts/bootstrap.min.js"></script>
 <!-- iCheck -->
-<%--<script src="../../plugins/iCheck/icheck.min.js"></script>--%>
     <script src="../Content/AdminLTE/iCheck/icheck.min.js"></script>
 </head>
 <body class="hold-transition login-page">
